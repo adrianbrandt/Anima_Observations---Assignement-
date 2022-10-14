@@ -18,7 +18,6 @@ public class Observation implements Comparable<Observation> {
 
     public Observation(){}
 
-    //Got help from Jarle here. had Animals animals where it was supposed to be Animals animal.
     public Observation(String name, Animals animal, Location location, LocalDateTime dateTime, int amount, String imageUrl, String description) {
         this.amount = amount;
         this.name = name;
